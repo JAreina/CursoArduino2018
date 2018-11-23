@@ -1,4 +1,4 @@
-CÓDIGO PARA PROCESSING 2.2.1
+
 /** PARA PROCESSING 2.2.1
  * ENVIO de dos datos desde Arduino a TS vía puerto SERIE (datos separados por una coma dato1,dato2)
  EMAKERUNGS 2016
@@ -17,7 +17,7 @@ int PORTNUM = 0; //numero de puerto de Arduino
  
 Serial arduino;
 Client c;
-String data; /buffer
+String data; //buffer
 int number1; //acá se almacena el valor1 
 int number2; //idem 2
 void setup() {
